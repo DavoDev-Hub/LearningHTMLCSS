@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio de Davo</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- metadatos -->
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#ea2f12" />
+</head>
+
+<!-- Este es mi portafolio para aprender HTML-->
+
+<body>
+    <header>
+        <h1>Portafolio Davo</h1>
+    </header>
+
+    <nav>
+        <a href="#about-me">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#q&a">Q&A</a>
+    </nav>
+
+    <aside>
+        <header>
+            <h2>My favorite technologies</h2>
+        </header>
+        <ul>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>React</li>
+        </ul>
+    </aside>
+
+    <main>
+        <article id="about-me">
+            <figure>
+                <img alt="foto de spiderman"
+                    src="https://avatars.githubusercontent.com/u/172091743?s=400&u=f50f68badd589708fdd5ef8cf1b3b86d1f601e71&v=4" />
+            </figure>
+            <header>
+                <h2>About Me</h2>
+            </header>
+            <p>
+                HI! I am a student at
+                <strong>Universidad Autónoma de Aguascalientes</strong> pursuing my
+                goal of becoming a Software Engineer. Throughout my education, I have
+                gained experience in various programming languages including C, C++,
+                Java, and JavaScript, as well as database management. I am passionate
+                about programming, and in my free time, I enjoy two major hobbies:
+                reading and listening to music.
+            </p>
+        </article>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li>LeetCode</li>
+                <li>Cetrifications</li>
+                <li>University Projects</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <header>
+                <h2>Projects</h2>
+            </header>
+            <ul>
+                <li class="list-item">
+                    Rip-Off Music
+                    <a href="https://github.com/DavoDev-Hub/RIP-OFF">https://github.com/DavoDev-Hub/RIP-OFF</a>
+                </li>
+                <li class="list-item">
+                    CRUD
+                    <a
+                        href="https://github.com/DavoDev-Hub/PROYECTO1_REDES_2024">https://github.com/DavoDev-Hub/PROYECTO1_REDES_2024</a>
+                </li>
+                <li class="list-item">
+                    Host-Virtuales
+                    <a
+                        href="https://github.com/DavoDev-Hub/PROYECTO1_REDES_2024">https://github.com/DavoDev-Hub/PROYECTO1_REDES_2024</a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="q&a">
+            <header>
+                <h2>Q&A</h2>
+            </header>
+            <details>
+                <summary>Where did you study?</summary>
+                <p>I studied at Universidad Autonoma De Aguascalientes</p>
+            </details>
+            <details>
+                <summary>What is your goal in the life?</summary>
+                <p>Become a Software Engineer</p>
+            </details>
+        </section>
+
+        <form action="">
+            <fieldset>
+                <legend>Stakeholders</legend>
+                <div>
+                    <label>
+                        Name:
+                        <input required type="text" name="name" placeholder="Jhon Doe" />
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        Email:
+                        <input type="text" name="name" placeholder="JhonDoe@gmail.com" />
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        Reason for the consultation
+                        <select>
+                            <option>Busisness</option>
+                            <option>Study</option>
+                            <option>Other</option>
+                        </select>
+                    </label>
+                </div>
+                <div>
+                    <datalist id="lenguages">
+                        <option value="JavaScript"></option>
+                        <option value="TypeScript"></option>
+                        <option value="React"></option>
+                    </datalist>
+                    <label>
+                        Lenguage
+                        <input list="lenguages" name="lenguages" />
+                    </label>
+                </div>
+            </fieldset>
+            <input type="submit" value="Send" />
+        </form>
+    </main>
+
+    <footer>
+        Have an exciting project you need help with? Send me an email or contact
+        me via instant message! <span>juanpajmz13@gmail.com</span>
+    </footer>
+</body>
+
+</html>
